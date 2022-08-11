@@ -8,7 +8,7 @@ public class Main {
         car2.printInfo();
         Auto car3 = new Auto ("Opel", 6000, 90);
         car3.printInfo();
-        car.checkSpeed(car3);
+        System.out.println(car3.checkSpeed());
 
     }
 }

@@ -29,14 +29,9 @@ public class Auto {
         System.out.println(info);
     }
 
-    void checkSpeed(Auto car) {
-        if (this.speed > 100) {
-            System.out.println(car.name + " true");
-        } else if (this.speed < 100) {
-            System.out.println(car.name + "false");
-        } else {
-            System.out.println(car.name + " has the same speed as " + 100);
-        }
+    boolean checkSpeed() {
+        return this.speed >= 100;
+
     }
 }
 
